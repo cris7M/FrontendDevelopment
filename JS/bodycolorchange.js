@@ -7,3 +7,5 @@ const randomClickFunction3 = function(){
     htmlbody.style.background = randomColor;
     console.log('The user Clicked and set the color to' + randomColor);
 }
+
+htmlbody.onclick= randomClickFunction3;
